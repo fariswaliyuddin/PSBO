@@ -59,17 +59,13 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 
 # Konsep OOP yang digunakan
 
-* Encapsulation
-Encapsulation adalah konsep OOP berupa pembungkusan class untuk menjaga apa apa saja yang ada di dalam class tersebut, baik method ataupun atribut, untuk membatasi hak akses oleh class lainnya. Hal itu dilakukan oleh melalui Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
+* Encapsulation adalah konsep OOP berupa pembungkusan class untuk menjaga apa apa saja yang ada di dalam class tersebut, baik method ataupun atribut, untuk membatasi hak akses oleh class lainnya. Hal itu dilakukan oleh melalui Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
 
-* Inheritance
-Inheritance adalah konsep OOP dimana sebuah class dapat mewariskan property dan method yang dimilikinya kepada class lain. Konsep inheritance dipakai untuk memanfaatkan fitur code reuse, yakni menghindari terjadinya redundanci dan pengulangan kode program.
+* Inheritance adalah konsep OOP dimana sebuah class dapat mewariskan property dan method yang dimilikinya kepada class lain. Konsep inheritance dipakai untuk memanfaatkan fitur code reuse, yakni menghindari terjadinya redundanci dan pengulangan kode program.
 
-* Abstraction
-Abstraction adalah proses untuk menyembunyikan detail implementasi program dari user sehingga hanya detail yang diinginkan saja yang ditampilkan kepada user, atau dengan kata lain user akan menerima informasi mengenai apa yang dapat dilakukan oleh suatu objek namun user tidak akan mengetahui bagaimana objek itu melakukannya.
+* Abstraction adalah proses untuk menyembunyikan detail implementasi program dari user sehingga hanya detail yang diinginkan saja yang ditampilkan kepada user, atau dengan kata lain user akan menerima informasi mengenai apa yang dapat dilakukan oleh suatu objek namun user tidak akan mengetahui bagaimana objek itu melakukannya.
 
-*Polymorphism
-Polymorphism adalah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama.
+* Polymorphism adalah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama.
 
 
 # Tipe desain pengembangan yang digunakan
