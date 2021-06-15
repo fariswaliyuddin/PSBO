@@ -87,7 +87,15 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 # Tipe desain pengembangan yang digunakan
 [`^ kembali ke atas ^`](#)
 
-Agile
+Design pattern adalah suatu metode untuk menyelesaikan permasalahan yang biasannya berulang atau memiliki pola dalam pengembangan suatu software. Design Pattern bukanlah sebuah metode yang langsung dapat mengubah penyelesaian masalah menjadi kode program melainkan sebuah pola dasar atau template dari cara untuk menyelesaikan suatu masalah dalam situasi berbeda. Design Pattern membantu mempercepat pengenmbangan suatu software karena pola-pola yang dijelaskan merupakan paradigma-paradigma yang telah teruji kegunaannya.  
+
+Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaannya. Berikut merupakan pola tersebut:   
+
+* Creational Pattern (Pola Pembuatan) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam suatu kejadian pembuatan suatu instance atau object.  
+* Behavioral Pattern (Pola Perilaku) Pola ini merupakan suatu solusi untuk menyelasaikan permasalahan yang ditemui dalam komunikasi antar object-object.  
+* Structural Pattern (Pola Struktural) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam pengaturan komposisi class dan object.  
+
+Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
 
 
 # Developer beserta job desc
