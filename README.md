@@ -32,11 +32,9 @@ Sebagai pemilik rumah makan di IPB, saya ingin mengetahui daftar menu dan harga 
 # Spesifikasi teknis lingkungan pengembangan
 [`^ kembali ke atas ^`](#)
 
-Visual Studio Code, HTML5, React, Tailwind CSS.
-
 ### Software
 * Text Editor : Visual Studio Code  
-* Operating System : Windows 10 Pro 64-bit  
+* Operating System : Windows 10 Home 64-bit  
 * Design Tools and Prototyping : Figma  
 * Management Tools : Github dan Google Meet  
 
@@ -47,7 +45,7 @@ Visual Studio Code, HTML5, React, Tailwind CSS.
 * ROM : 512Gb HDD dan 128Gb SSD
 
 ### Tech Stack
-* HTML, CSS, Javascript : (Programming Languange)  
+* HTML5, CSS3, Javascript : (Languanges)  
 * TailwindCSS : (CSS Framework)  
 
 # Fitur umum
@@ -96,6 +94,28 @@ Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaanny
 * Structural Pattern (Pola Struktural) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam pengaturan komposisi class dan object.  
 
 Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
+
+
+# Hasil dan Pembahasan
+### Use case diagram  
+### Activity diagram   
+### Class diagram   
+### Entity Relationship Diagram   
+### Arsitektur sistem   
+### Fungsi utama yang dikembangkan   
+### Fungsi CRUD   
+
+
+
+# Hasil Implementasi
+## Screenshot sistem
+
+## Link aplikasi (jika sudah di deploy)
+
+
+# Saran untuk pengembangan selanjutnya   
+
+
 
 
 # Developer beserta job desc
