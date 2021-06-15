@@ -3,7 +3,6 @@
 
 <h1 align="center"><img src="/Frontend/img/Logo_Kantin_IPB.png"></h1>
 
-
 [Navigation](#)
 
 [Deskripsi Singkat Aplikasi](#deskripsi) | [User Analysis](#user) | [Spesifikasi teknis lingkungan pengembangan](#spec) | [Fitur umum](#fitur) | [OOP](#oop) | [Tipe desain pengembangan yang digunakan](#design) | [Developer beserta job desc](#job) | [Progress](#progress) | [Referensi](#referensi)
@@ -91,7 +90,7 @@ Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaanny
 * Behavioral Pattern (Pola Perilaku) Pola ini merupakan suatu solusi untuk menyelasaikan permasalahan yang ditemui dalam komunikasi antar object-object.  
 * Structural Pattern (Pola Struktural) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam pengaturan komposisi class dan object.  
 
-Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view). 
+Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
 
 # Hasil dan Pembahasan
 ### Use case diagram  
@@ -112,7 +111,6 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 * Read; Implementasi fungsi read pada aplikasi web Kantin IPB terdapat pada fitur login dan daftar akun yaitu pada saat pemasukkan password dan data serta authentikasi, fitur diary asupan makanan hari ini, fitur report, fitur search, fitur lihat daftar menu makanan, dan fitur lihat daftar artikel.   
 * Update; Implementasi fungsi update pada aplikasi web Kantin IPB yaitu terdapat pada fitur edit menu makanan, edit diary asupan makanan hari ini, edit artikel, dan ubah password pada menu "forgot password".   
 * Delete; Implementasi fungsi delete pada aplikasi web Kantin IPB yaitu terdapat pada fitur hapus menu makanan, hapus artikel, dan hapus diary asupan makanan hari ini.
-
 
 
 # Hasil Implementasi
