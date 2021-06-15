@@ -98,15 +98,16 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ### Use case diagram  
 ![image](/Frontend/img/use_case.PNG)
 ### Activity diagram
-* Penjual
+Penjual
 ![image](/Frontend/img/activity_penjual.PNG)
 
-* Diary
+Diary
 ![image](/Frontend/img/activity_diary.PNG)
 
-* Report
+Report
 ![image](/Frontend/img/activity_report.PNG)
-* Restaurant
+
+Restaurant
 ![image](/Frontend/img/activity_restaurant.PNG)
 
 ### Class diagram   
