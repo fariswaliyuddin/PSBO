@@ -45,7 +45,9 @@ Sebagai pemilik rumah makan di IPB, saya ingin mengetahui daftar menu dan harga 
 
 ### Tech Stack
 * HTML5, CSS3, Javascript : (Languanges)  
-* TailwindCSS : (CSS Framework)  
+* TailwindCSS : (CSS Framework)
+* Express.js : (Node.js Framework)
+* MongoDB : (Database)  
 
 # Fitur umum
 [`^ kembali ke atas ^`](#)
@@ -94,7 +96,16 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 
 # Hasil dan Pembahasan
 ### Use case diagram  
-### Activity diagram   
+![image](/Frontend/img/use_case.PNG)
+### Activity diagram
+* Penjual
+   ![image](/Frontend/img/activity_penjual.PNG)
+* Diary
+   ![image](/Frontend/img/activity_diary.PNG)
+* Report
+   ![image](/Frontend/img/activity_report.PNG)
+* Restaurant
+   ![image](/Frontend/img/activity_restaurant.PNG)
 ### Class diagram   
 ![image](/Frontend/img/class_diagram.png)
 ### Entity Relationship Diagram   
@@ -112,10 +123,6 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 * Read; Implementasi fungsi read pada aplikasi web Kantin IPB terdapat pada fitur login dan daftar akun yaitu pada saat pemasukkan password dan data serta authentikasi, fitur diary asupan makanan hari ini, fitur report, fitur search, fitur lihat daftar menu makanan, dan fitur lihat daftar artikel.   
 * Update; Implementasi fungsi update pada aplikasi web Kantin IPB yaitu terdapat pada fitur edit menu makanan, edit diary asupan makanan hari ini, edit artikel, dan ubah password pada menu "forgot password".   
 * Delete; Implementasi fungsi delete pada aplikasi web Kantin IPB yaitu terdapat pada fitur hapus menu makanan, hapus artikel, dan hapus diary asupan makanan hari ini.
-
-
-# Hasil Implementasi
-
 
 ## Screenshot sistem
 
