@@ -1,0 +1,266 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kantin IPB: Diary</title>
+  <meta name="description" content="Kantin IPB: Diary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    
+    <div class="">
+        <div id="nav-placeholder">
+        </div>
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <header class="flex justify-center">
+        <h1 class="m-5 pt-6 font-black text-2xl text-gray-100">Diary</h1>
+    </header>
+    <section class="flex flex-col container rounded-2xl bg-gray-100 my-12 mx-auto px-8 md:px-12">
+        
+        <!-- Header -->
+
+        <header class="flex flex-wrap items-center mt-2">
+            <span class="ml-1">Today</span>
+
+            <!-- Button trigger modal -->
+
+            <button
+            class="ml-auto flex flex-wrap items-center justify-center
+            text-right bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            type="button" onclick="toggleModal('modal-example-small')">
+            Find Your Ideal Diet
+            </button>
+            <!-- Modal -->
+            <div
+            class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center"
+            id="modal-example-small">
+            <div class="relative w-auto my-6 mx-auto max-w-sm">
+            <!--content-->
+            <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                <!--header-->
+                <div class="flex items-start justify-between p-5 border-b border-solid border-gray-200 rounded-t">
+                <h3 class="text-3xl font-semibold">
+                    Find Ideal Diet
+                </h3>
+                <button
+                    class="p-1 ml-auto bg-transparent border-0 text-gray-300 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                    onclick="toggleModal('modal-example-small')">
+                    <span class="bg-transparent h-6 w-6 text-2xl block outline-none focus:outline-none">
+                    <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                </div>
+                <!--body-->
+                <div class="relative p-6 flex-auto">
+                        <input type="text" id="height" placeholder="Height (cm)"
+                        class="mt-2 shadow border rounded-2xl w-full px-3 py-2 
+                        focus:outline-none focus:border-purple-500 focus:bg-blue-100">
+                        <input type="text" id="weight" placeholder="Weight (cm)"
+                        class="mt-2 shadow border rounded-2xl w-full px-3 py-2 
+                        focus:outline-none focus:border-purple-500 focus:bg-blue-100">
+                </div>
+                <!--footer-->
+                <div class="flex items-center justify-end p-6 border-t border-solid border-gray-200 rounded-b">
+                <button
+                    class="text-purple-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button" onclick="toggleModal('modal-example-small')">
+                    Cancel
+                </button>
+                <button
+                    class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button" onclick="toggleModal('modal-example-small')">
+                    Save Changes
+                </button>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="modal-example-small-backdrop"></div>
+            <script type="text/javascript">
+            function toggleModal(modalID) {
+            document.getElementById(modalID).classList.toggle("hidden");
+            document.getElementById(modalID + "-backdrop").classList.toggle("hidden");
+            document.getElementById(modalID).classList.toggle("flex");
+            document.getElementById(modalID + "-backdrop").classList.toggle("flex");
+            }
+            </script>
+
+            <!-- END of Modal Button -->
+
+        </header>
+        <!-- END of Header -->
+
+            <!-- Table -->
+            <table class="my-4">
+                <thead class="bg-gray-50">
+                    <tr>
+                      <th scope="col" class="px-1 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Fat
+                      </th>
+                      <th scope="col" class="px-1 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Carbs
+                      </th>
+                      <th scope="col" class="px-1 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Prot
+                      </th>
+                      <th scope="col" class="px-1 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        RDI
+                      </th>
+                      <th scope="col" class="px-1 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Calories
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr>
+                      <td class="px-1 py-4 text-center whitespace-nowrap">
+                        <div class="text-sm text-gray-500">0</div>
+                      </td>
+                      <td class="px-1 py-4 text-center whitespace-nowrap">
+                        <div class="text-sm text-gray-500">0</div>
+                      </td>
+                      <td class="px-1 py-4 text-center whitespace-nowrap">
+                        <div class="text-sm text-gray-500">0</div>
+                      </td>
+                      <td class="px-1 py-4 text-center whitespace-nowrap text-sm text-gray-500">
+                        0
+                      </td>
+                      <td class="px-1 py-4 text-center whitespace-nowrap text-sm text-gray-500">
+                        0
+                      </td>
+                    </tr>
+            </table>
+            <!-- END of Table -->
+
+            <!-- Breakfast -->
+            <div class="flex flex-wrap flex-col bg-blue-300 my-2">
+                <div class="flex flex-wrap flex-row w-full pl-8 pr-2 bg-gray-400 text-white text-lg h-12 items-center">
+                    <span>Breakfast</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 ml-auto text-black" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="flex w-full px-4 bg-gray-600 text-white text-xs h-10 items-center">
+                    <span>No food have yet been added</span>
+                </div>
+            </div>
+            <!-- END of Breakfast -->
+
+            <!-- Lunch -->
+            <div class="flex flex-wrap flex-col bg-blue-300 my-2">
+                <div class="flex flex-wrap flex-row w-full pl-8 pr-2 bg-gray-400 text-white text-lg h-12 items-center">
+                    <span>Breakfast</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 ml-auto text-black" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="flex w-full px-4 bg-gray-600 text-white text-xs h-10 items-center">
+                    <span>No food have yet been added</span>
+                </div>
+            </div>
+            <!-- END of Lunch -->
+
+            <!-- Dinner -->
+            <div class="flex flex-wrap flex-col bg-blue-300 my-2">
+                <div class="flex flex-wrap flex-row w-full pl-8 pr-2 bg-gray-400 text-white text-lg h-12 items-center">
+                    <span>Dinner</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 ml-auto text-black" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="flex w-full px-4 bg-gray-600 text-white text-xs h-10 items-center">
+                    <span>No food have yet been added</span>
+                </div>
+            </div>
+            <!-- END of Dinner -->
+
+            <!-- Snacks -->
+            <div class="flex flex-wrap flex-col bg-blue-300 my-2">
+                <div class="flex flex-wrap flex-row w-full pl-8 pr-2 bg-gray-400 text-white text-lg h-12 items-center">
+                    <span>Snacks/Other</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 ml-auto text-black" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="flex w-full px-4 bg-gray-600 text-white text-xs h-10 items-center">
+                    <span>No food have yet been added</span>
+                </div>
+            </div>
+            <!-- END of Snacks -->
+
+            <!-- Summary -->
+            <div class="flex flex-wrap flex-col my-2">
+                <div class="flex flex-wrap flex-row w-full px-2 mb-2 text-lg items-center">
+                    <span>Summary</span>
+                </div>
+                <div class="flex w-full px-2 text-gray-800 text-xs items-center">
+                    <span>Calories Remaining</span>
+                    <span class="ml-auto">1600</span>
+                </div>
+                <div class="flex w-full px-2 text-gray-800 text-xs items-center">
+                    <span>Calories Consumed</span>
+                    <span class="ml-auto">0</span>
+                </div>
+                <div class="flex w-full px-2 mt-2 mb-8 py-2 text-gray-800 text-xs items-center border-t-8">
+                    <span>0% of RDI</span>
+                    <span class="ml-auto">1600</span>
+                </div>
+            </div>
+            <!-- END of Summary -->
+
+
+    </section>
+    
+
+  
+
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

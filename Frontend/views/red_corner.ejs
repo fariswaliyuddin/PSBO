@@ -1,0 +1,215 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Red Corner</title>
+  <meta name="description" content="Red Corner Menu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/button_plus_sticky.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <section class="container bg-gray-100 my-12 mx-auto px-8 md:px-12">
+        <header>
+            <h1 class="m-5 pt-6 font-black text-2xl text-red-600">Red Corner</h1>
+            <div class="flex justify-between">
+                <p class="m-5 font-black text-lg text-gray-800">{{Menus_Count}}</p>
+                <p class="m-5 font-black text-lg text-gray-800">{{Distance_From_You}}</p>
+            </div>
+        </header>
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+    
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_soto_ayam.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout -->
+        
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_lontong_sayur.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout -->
+    
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_nasi_tempe.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout -->
+
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_warteg_padang_1.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout -->
+                
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_warteg_padang_2.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout --> 
+            
+            <!-- Column Layout -->
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
+    
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="h-80 md:h-96 mb-2 w-full" src="../img/rc_nasi_kebuli.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
+                            </p>
+
+                        </a>
+                </article>
+                <!-- END Article -->
+    
+            </div>
+            <!-- END Column Layout -->
+    
+        </div>
+    </section>
+    <!-- END Section -->
+    <div>
+        <a href="/html/add_menu.html" class="float">
+            <i class="fa fa-plus my-float"></i>
+        </a>
+    </div>
+
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

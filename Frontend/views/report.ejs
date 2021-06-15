@@ -1,0 +1,159 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kantin IPB: Report</title>
+  <meta name="description" content="Kantin IPB: Report">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    
+    <div class="">
+        <div id="nav-placeholder">
+        </div>
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <header class="flex justify-center">
+        <h1 class="m-5 pt-6 font-black text-2xl text-gray-100">Report</h1>
+    </header>
+    <section class="flex flex-col container rounded-2xl bg-gray-100 my-12 pb-8 mx-auto px-8 md:px-12">
+
+        <!-- Line Chart -->
+        <div class="my-4 shadow-lg rounded-lg overflow-hidden">
+            <div class="flex flex-col my-2">
+                <!-- Choose Timeframe -->
+                <label for="timeframe" class="flex flex-wrap items-center justify-center select-none text-sm font-bold">
+                    Choose Timeframe    
+                </label>
+                <div class="flex flex-wrap items-center justify-center text-center bg-blue-200 mt-2">
+                    <select name="timeframe" id="timeframe"
+                    class="flex flex-wrap items-center justify-center
+                    text-right bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow 
+                    hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+                    <option value="this_week">This Week</option>
+                    <option value="this_month">This Month</option>
+                    <option value="this_year">This Year</option>
+                    <option value="until_now">Until Now</option>
+                </select>
+                </div>
+                
+                <canvas class="p-10 " id="chartLine"></canvas>
+            </div>
+        </div>
+          
+          <!-- Required chart.js -->
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          
+          <!-- Chart line -->
+          <script>
+          
+              const labels = [
+                  'Mon',
+                  'Tue',
+                  'Wed',
+                  'Thu',
+                  'Fri',
+                  'Sat',
+                  'Sun',
+              ];
+              const data = {
+                  labels: labels,
+                  datasets: [{
+                      label: 'Daily Calories (kcal)',
+                      backgroundColor: 'hsl(252, 82.9%, 67.8%)',
+                      borderColor: 'hsl(252, 82.9%, 67.8%)',
+                      data: [0, 10, 5, 2, 20, 30, 45, 70],
+                  }]
+              };
+          
+              const configLineChart = {
+                  type: 'line',
+                  data,
+                  options: {}
+              };
+          
+              var chartLine = new Chart(
+                  document.getElementById('chartLine'),
+                  configLineChart
+              );
+          </script>
+          <!-- END of Line Chart -->
+        
+          <!-- Cals (kcals) -->
+          <div class="flex flex-col my-8">
+            <div class="flex flex-wrap flex-row w-full px-4 pr-2 bg-gray-400 text-white text-lg h-12 items-center">
+                <p></p>
+                <p class="ml-auto text-black">Cals (kcals)</p>
+            </div>
+            <div class="flex flex-wrap flex-row w-full px-4 pr-2 bg-gray-600 text-white text-lg h-12 items-center">
+                <span>Breakfast</span>
+                <span class="ml-auto text-2xl mr-2">-</span>
+            </div>
+            <div class="flex flex-wrap flex-row w-full px-4 pr-2 bg-gray-600 text-white text-lg h-12 items-center">
+                <span>Lunch</span>
+                <span class="ml-auto text-2xl mr-2">-</span>
+            </div>
+            <div class="flex flex-wrap flex-row w-full px-4 pr-2 bg-gray-600 text-white text-lg h-12 items-center">
+                <span>Dinner</span>
+                <span class="ml-auto text-2xl mr-2">-</span>
+            </div>
+            <div class="flex flex-wrap flex-row w-full px-4 pr-2 bg-gray-600 text-white text-lg h-12 items-center">
+                <span>Snacks/Other</span>
+                <span class="ml-auto text-2xl mr-2">-</span>
+            </div>
+            <!-- END of Cals (kcals) -->
+          </div>
+    </section>
+    
+
+  
+
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

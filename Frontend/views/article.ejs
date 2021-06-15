@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kantin IPB: Article</title>
+  <meta name="description" content="Kantin IPB: Article">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Required font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Required form plugin -->
+    <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet">
+
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/button_plus_sticky_blue.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    
+    <div class="">
+        <div id="nav-placeholder-no-search">
+        </div>
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder-no-search").load("navbar_without_search.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <header class="flex justify-center">
+        <h1 class="m-5 pt-6 font-black text-2xl text-gray-100">Article</h1>
+    </header>
+    <div class="flex flex-col container rounded-2xl bg-gray-100 my-12 py-4 mx-auto">
+    <section class="flex flex-col container mb-4 px-8 md:px-12">
+        <!-- Search field -->        
+        <div class="relative flex w-full flex-wrap items-stretch mb-3">
+            <button type="submit" 
+            class="z-10 h-full leading-snug font-normal absolute text-center text-gray-400 focus:outline-none
+            absolute bg-transparent rounded-2xl text-base items-center justify-center w-8 pl-3 py-3">
+                <i class="fas fa-search"></i>
+            </button>
+            <input type="search" placeholder="Search"
+            class="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded-2xl text-sm border border-gray-400 outline-none focus:outline-none focus:ring w-full pl-10" />
+        </div>
+        <!-- END Search field -->
+        
+        <!-- Chips -->
+        <div class="flex space-x-2">
+            <button class="text-xs px-3 font-medium text-base bg-gray-500 text-white rounded-full py-1.5 
+            hover:bg-gray-400 focus:underline focus:outline-none">
+              Diet
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-red-500 text-white rounded-full py-1.5 
+            hover:bg-red-400 focus:underline focus:outline-none">
+              Lifestyle
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-yellow-500 text-white rounded-full py-1.5
+            hover:bg-yellow-400 focus:underline focus:outline-none">
+              Kesehatan
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-green-500 text-white rounded-full py-1.5
+            hover:bg-green-400 focus:underline focus:outline-none">
+              Sosial
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-blue-500 text-white rounded-full py-1.5
+            hover:bg-blue-400 focus:underline focus:outline-none">
+              Tips
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-purple-500 text-white rounded-full py-1.5
+            hover:bg-purple-400 focus:underline focus:outline-none">
+              Popular
+            </b>
+            <button class="text-xs px-3 font-medium text-base bg-indigo-500 text-white rounded-full py-1.5
+            hover:bg-indigo-400 focus:underline focus:outline-none">
+              News
+            </button>
+            <button class="text-xs px-3 font-medium text-base bg-pink-500 text-white rounded-full py-1.5
+            hover:bg-pink-400 focus:underline focus:outline-none">
+              Love
+            </button>
+        <!-- END of Chips -->
+        </section>
+        <!-- END of Section -->
+
+        <!-- Recommended For You -->
+        <section class="flex flex-col border-black border-t-2 container rounded-b-2xl bg-gray-100 py-4 mx-auto">
+            <article class="px-8 md:px-12">
+                <span class="font-black">Recommended For You</span>
+                
+                <!-- Article 1 -->
+                <a class="flex flex-col border justify-center no-underline hover:underline text-black" href="#">
+                    <div class="mt-8 flex flex-wrap border-b-2">
+                        <div class="flex flex-col flex-wrap w-3/4">
+                        <div class="flex flex-wrap ml-2">
+                            <img class="rounded-full h-12 w-12"
+                            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.proheadshots.ca%2Fwp-content%2Fuploads%2F2016%2F03%2Fbusiness-headshot-white-background.jpg&f=1&nofb=1" alt="Author 1">
+                            <h3 class="ml-2 mt-4">Zidane Ibrahim Fadela</h3>
+                        </div>
+                        <p class="my-2 mx-6">
+                            Diet keto ternyata mampu mendetoksifikasi penyakit jantung.
+                        </p>
+                        </div>
+                        <figure class="p-4 w-1/4 ml-auto">
+                            <img src="../img/kantin_takol.jpg" alt="Artikel 1" class="object-scale-down">
+                        </figure>
+                    </div>
+                </a>
+                <!-- END of Article 1 -->
+                <!-- Article 2 -->
+                <a class="flex flex-col border justify-center no-underline hover:underline text-black" href="#">
+                    <div class="mt-8 flex flex-wrap border-b-2">
+                        <div class="flex flex-col flex-wrap w-3/4">
+                            <div class="flex flex-wrap ml-2">
+                            <img class="rounded-full h-12 w-12"
+                            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.proheadshots.ca%2Fwp-content%2Fuploads%2F2016%2F03%2Fbusiness-headshot-white-background.jpg&f=1&nofb=1" alt="Author 2">
+                            <h3 class="ml-2 mt-4">Zidane Ibrahim Fadela</h3>
+                            </div>
+                            <p class="my-2 mx-6">
+                                Diet keto ternyata mampu mendetoksifikasi penyakit jantung.
+                            </p>
+                        </div>
+                        <figure class="p-4 w-1/4 ml-auto">
+                            <img src="../img/kantin_stevia.jpg" alt="Artikel 2" class="object-scale-down">
+                        </figure>
+                    </div>
+                </a>
+                <!-- END of Article 2 -->
+                <!-- Article 3 -->
+                <a class="flex flex-col border justify-center no-underline hover:underline text-black" href="#">
+                    <div class="mt-8 flex flex-wrap border-b-2">
+                        <div class="flex flex-col flex-wrap w-3/4">
+                            <div class="flex flex-wrap ml-2">
+                            <img class="rounded-full h-12 w-12"
+                            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.proheadshots.ca%2Fwp-content%2Fuploads%2F2016%2F03%2Fbusiness-headshot-white-background.jpg&f=1&nofb=1" alt="Author 3">
+                            <h3 class="ml-2 mt-4">Zidane Ibrahim Fadela</h3>
+                            </div>
+                            <p class="my-2 mx-6">
+                                Diet keto ternyata mampu mendetoksifikasi penyakit jantung.
+                            </p>
+                        </div>
+                        <figure class="p-4 w-1/4 ml-auto">
+                            <img src="../img/rc_lontong_sayur.jpg" alt="Artikel 3" class="object-scale-down">
+                        </figure>
+                    </div>
+                </a>
+                <!-- END of Article 3 -->
+                <!-- Article 4 -->
+                <a class="flex flex-col border justify-center no-underline hover:underline text-black" href="#">
+                    <div class="mt-8 flex flex-wrap border-b-2">
+                        <div class="flex flex-col flex-wrap w-3/4">
+                            <div class="flex flex-wrap ml-2">
+                            <img class="rounded-full h-12 w-12"
+                            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.proheadshots.ca%2Fwp-content%2Fuploads%2F2016%2F03%2Fbusiness-headshot-white-background.jpg&f=1&nofb=1" alt="Author 4">
+                            <h3 class="ml-2 mt-4">Zidane Ibrahim Fadela</h3>
+                            </div>
+                            <p class="my-2 mx-6">
+                                Diet keto ternyata mampu mendetoksifikasi penyakit jantung.
+                            </p>
+                        </div>
+                        <figure class="p-4 w-1/4 ml-auto">
+                            <img src="../img/ketoprak.jpg" alt="Artikel 4" class="object-scale-down">
+                        </figure>
+                    </div>
+                </a>
+                <!-- END of Article 4 -->
+            </article>
+        <!-- END of Recommended For You -->
+        </section>
+    </div>
+
+    <!-- Add Article Button -->
+    <div>
+        <a href="/html/add_article.html" class="float">
+            <i class="fa fa-plus my-float"></i>
+        </a>
+    </div>
+    <!-- END of Add Article Button -->
+    
+
+  
+
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

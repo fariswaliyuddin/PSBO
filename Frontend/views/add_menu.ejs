@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add New Food</title>
+  <meta name="description" content="Add New Food Menu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/stars.css">
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <!-- Form Add Menu -->
+    <section>
+        <div class="container mx-auto my-20 w-full border border-purple-500 bg-white">
+            <div class="p-5 space-y-5 shadow-xl">
+                <h4 class="text-center text-3xl">Add New Food</h4>
+                <form>
+                    <div class="grid grid-cols-1 gap-5">
+                        <label for="name" class="select-none mt-4 text-sm font-bold">Food Name</label>
+                        <input type="text" id="name" placeholder="Food Name"
+                        class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"/>
+                        <label for="restaurant" class="select-none mt-2 mb-2 text-sm font-bold">Restaurant</label>
+                        <select name="restaurant" id="restaurant">
+                            <option value="red_corner">Red Corner (RC)</option>
+                            <option value="blue_corner">Blue Corner (BC)</option>
+                            <option value="green_corner">Green Corner (GC)</option>
+                            <option value="yellow_corner">Yellow Corner (YC)</option>    
+                        </select>
+                        <label for="price" class="select-none mt-2 mb-2 text-sm font-bold">Price</label>
+                        <input type="text" id="price" placeholder="example: 25000"
+                        class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"/>
+                        <label for="cal" class="select-none mt-2 mb-2 text-sm font-bold">Calories</label>
+                        <input type="text" id="cal" placeholder="example: 155 or 180.9"
+                        class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"/>
+                        <label for="rate" class="select-none mt-2 mb-2 text-sm font-bold">Rating</label>
+                        <div class="rate flex flex-wrap flex-row-reverse items-center justify-end">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>    
+                        </div>
+                        <div class="image">
+                            <div class="flex w-full h-32 items-center justify-center bg-grey-lighter">
+                                <label class="w-64 flex flex-col items-center justify-center px-4 py-6 bg-white text-blue-400 rounded-lg shadow-lg tracking-wide uppercase border border-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white">
+                                    <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                                    </svg>
+                                    <span class="mt-2 text-base leading-normal">Upload an image</span>
+                                    <input type='file' class="hidden" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <input
+                        type="submit"
+                        value="Submit"
+                        class="focus:outline-none mt-5 bg-purple-500 px-4 py-2 text-white font-bold w-full"
+                    />
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

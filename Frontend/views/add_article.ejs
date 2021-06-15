@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Create New Article</title>
+  <meta name="description" content="Create New Article">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/stars.css">
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500
+font-sans text-gray-900 h-screen">
+
+    <!--Navigation bar-->
+    
+    <div class="">
+        <div id="nav-placeholder-no-search">
+        </div>
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder-no-search").load("navbar_without_search.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <!-- Form Create New Article -->
+    <section>
+        <div class="container mx-auto my-20 w-full border border-purple-500 bg-white">
+            <div class="p-5 space-y-5 shadow-xl">
+                <h4 class="text-center text-3xl">Create New Article</h4>
+                <form>
+                    <div class="grid grid-cols-1 gap-5">
+                        <label for="title" class="select-none mt-4 text-sm font-bold">Title</label>
+                        <input type="text" id="title" placeholder="Article Title"
+                        class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"/>
+                        <label for="tag" class="select-none mt-2 mb-2 text-sm font-bold">Tag</label>
+                        <select name="tag" id="tag">
+                            <option value="lifestyle">Lifestyle</option>
+                            <option value="tips">Tips</option>
+                            <option value="love">Love</option>
+                            <option value="health">Health</option>    
+                        </select>
+                        <label for="body" class="select-none mt-2 mb-2 text-sm font-bold">Body</label>
+                        <textarea rows="3" placeholder="Enter Article Body."
+                        class="form-textarea mt-1 block w-full border border-gray-500 px-4 py-2 
+                        focus:outline-none focus:border-purple-500" 
+                        ></textarea>                        
+
+
+
+                        <div class="image">
+                            <div class="flex w-full h-32 items-center justify-center bg-grey-lighter">
+                                <label class="w-64 flex flex-col items-center justify-center px-4 py-6 bg-white text-blue-400 rounded-lg shadow-lg tracking-wide uppercase border border-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white">
+                                    <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                                    </svg>
+                                    <span class="mt-2 text-base leading-normal">Upload an image</span>
+                                    <input type='file' class="hidden" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <input
+                        type="submit"
+                        value="Submit"
+                        class="focus:outline-none mt-5 bg-purple-500 px-4 py-2 text-white font-bold w-full"
+                    />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- END of Form Create New Article -->
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+
