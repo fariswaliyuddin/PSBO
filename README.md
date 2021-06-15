@@ -100,7 +100,7 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ### Use case diagram  
 ### Activity diagram   
 ### Class diagram   
-![image](/Frontend/img/Kantin IPB-Class Diagram.png)
+![image](/Frontend/img/class_diagram.png)
 ### Entity Relationship Diagram   
 ### Arsitektur sistem   
 ### Fungsi utama yang dikembangkan   
