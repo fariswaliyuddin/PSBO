@@ -41,6 +41,10 @@ Visual Studio Code, HTML5, React, Tailwind CSS.
 * Management Tools : Github dan Google Meet  
 
 ### Hardware
+* CPU : AMD Dual Core A9-9420, 3.6 GHz  
+* GPU : Radeon R5 M420 2GB
+* RAM : 4GB DDR
+* ROM : 512Gb HDD dan 128Gb SSD
 
 ### Tech Stack
 * HTML, CSS, Javascript : (Programming Languange)  
