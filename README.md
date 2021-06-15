@@ -55,7 +55,6 @@ Kantin IPB adalah aplikasi berbasis web yang memiliki fitur pencarian untuk mene
 
 Selain fitur search, Kantin IPB juga menyediakan fitur sort. Search digunakan ketika pengguna ingin mencari makanan berdasarkan keyword tertentu. Sort digunakan ketika pengguna ingin mengurutkan makanan dengan memilih kategori tertentu seperti harga atau nutrisi.
 
-
 Aplikasi Kantin IPB membutuhkan data yang lengkap dan akurat untuk menjalankan aplikasi sesuai dengan fungsinya. Aplikasi ini sangat bergantung pada pengguna kedua karena pengguna tersebut yang memberikan data seputar kantin mulai dari menu yang disajikan sampai nutrisi yang ada pada makanan. Data nutrisi dari makanan kami dapatkan dari web lain yang menyediakan informasi nutrisi dari makanan umum yang dikonsumsi oleh masyarakat Indonesia. Pengguna kedua cukup memilih kategori dari makanan yang dijual dan sistem akan secara otomatis menampilkan nutrisi dari makanan tersebut.
 
 ## Dampak 
@@ -81,7 +80,6 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 
 * Polymorphism adalah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama.
 
-
 # Tipe desain pengembangan yang digunakan
 [`^ kembali ke atas ^`](#)
 
@@ -95,15 +93,13 @@ Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaanny
 
 Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
 
-
 # Hasil dan Pembahasan
 ### Use case diagram  
 ### Activity diagram   
 ### Class diagram   
 ![image](/Frontend/img/class_diagram.png)
 ### Entity Relationship Diagram   
-### Arsitektur sistem  
- ![image](/Frontend/img/arsitektur_sistem.png)
+### Arsitektur sistem   
 ### Fungsi utama yang dikembangkan   
 Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian makanan dari berbagai kantin yang ada di IPB University Dramaga secara online. Kantin IPB memiliki fitur untuk melihat kantin, melihat menu kantin, mencari menu makanan, menambah menu makanan, mengedit menu makanan, menghapus menu makanan, menambah artikel baru, mengedit artikel, menghapus artikel, mentracking asupan makanan dan minuman user per hari, dan melihat report asupan kalori per satuan waktu. 
 
@@ -120,7 +116,10 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 
 
 # Hasil Implementasi
+
+
 ## Screenshot sistem
+
 
 ## Link aplikasi (jika sudah di deploy)
 
