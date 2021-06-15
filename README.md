@@ -103,6 +103,12 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ### Entity Relationship Diagram   
 ### Arsitektur sistem   
 ### Fungsi utama yang dikembangkan   
+Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian makanan dari berbagai kantin yang ada di IPB University Dramaga secara online. Kantin IPB memiliki fitur untuk melihat kantin, melihat menu kantin, mencari menu makanan, menambah menu makanan, mengedit menu makanan, menghapus menu makanan, menambah artikel baru, mengedit artikel, menghapus artikel, mentracking asupan makanan dan minuman user per hari, dan melihat report asupan kalori per satuan waktu. 
+
+* Melihat menu makanan dan minuman yang tersedia di kantin IPB Dramaga; Pada fitur ini, user dapat melihat berbagai menu makanan yang tersedia di kantin IPB Dramaga. Setiap menu memiliki beberapa nilai, seperti nama menu, harga, kalori, dan rating. 
+* Membaca, menulis, mengedit, dan menghapus artikel; User dapat menggunakan fitur artikel yang diinginkan. 
+* Melakukan tracking asupan nutrisi harian; User dapat melakukan tracking harian dan melihat asupan kalori yang ia konsumsi per satuan waktu dalam bentuk grafik visual.
+
 ### Fungsi CRUD   
 * Create; Implementasi fungsi create pada aplikasi web Kantin IPB terdapat pada fitur daftar akun, tambah diary makanan hari ini, fitur tambah menu makanan, dan fitur buat artikel baru.  
 * Read; Implementasi fungsi read pada aplikasi web Kantin IPB terdapat pada fitur login dan daftar akun yaitu pada saat pemasukkan password dan data serta authentikasi, fitur diary asupan makanan hari ini, fitur report, fitur search, fitur lihat daftar menu makanan, dan fitur lihat daftar artikel.   
