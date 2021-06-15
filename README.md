@@ -66,6 +66,11 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 
 Agile
 
+# Hasil dan Pembahasan
+[`^ kembali ke atas ^`](#)
+
+## Class Diagram
+![image](/Frontend/img/Kantin IPB-Class Diagram.png)
 
 # Developer beserta job desc
 [`^ kembali ke atas ^`](#)

@@ -10,8 +10,6 @@ app.get('/', (req, res) => {
     res.render('index.ejs')
 })
 
-app.post('/', (req, res) => {
-})
 
 //Register
 app.get('/register', (req, res) => {
@@ -19,10 +17,15 @@ app.get('/register', (req, res) => {
 })
 
 app.post('/register', (req, res) => {
+    res.render('index.ejs')
 })
 
 //Menus
 app.get('/menus', (req, res) => {
+    res.render('menus.ejs')
+})
+
+app.post('/', (req, res) => {
     res.render('menus.ejs')
 })
 
