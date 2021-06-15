@@ -32,7 +32,21 @@ Sebagai pemilik rumah makan di IPB, saya ingin mengetahui daftar menu dan harga 
 # Spesifikasi teknis lingkungan pengembangan
 [`^ kembali ke atas ^`](#)
 
-Visual Studio Code, HTML5, React, Tailwind CSS.
+### Software
+* Text Editor : Visual Studio Code  
+* Operating System : Windows 10 Home 64-bit  
+* Design Tools and Prototyping : Figma  
+* Management Tools : Github dan Google Meet  
+
+### Hardware
+* CPU : AMD Dual Core A9-9420, 3.6 GHz  
+* GPU : Radeon R5 M420 2GB
+* RAM : 4GB DDR
+* ROM : 512Gb HDD dan 128Gb SSD
+
+### Tech Stack
+* HTML5, CSS3, Javascript : (Languanges)  
+* TailwindCSS : (CSS Framework)  
 
 # Fitur umum
 [`^ kembali ke atas ^`](#)
@@ -58,13 +72,60 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 [`^ kembali ke atas ^`](#)
 
 # Konsep OOP yang digunakan
-* Encapsulation
+
+* Encapsulation adalah konsep OOP berupa pembungkusan class untuk menjaga apa apa saja yang ada di dalam class tersebut, baik method ataupun atribut, untuk membatasi hak akses oleh class lainnya. Hal itu dilakukan oleh melalui Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
+
+* Inheritance adalah konsep OOP dimana sebuah class dapat mewariskan property dan method yang dimilikinya kepada class lain. Konsep inheritance dipakai untuk memanfaatkan fitur code reuse, yakni menghindari terjadinya redundanci dan pengulangan kode program.
+
+* Abstraction adalah proses untuk menyembunyikan detail implementasi program dari user sehingga hanya detail yang diinginkan saja yang ditampilkan kepada user, atau dengan kata lain user akan menerima informasi mengenai apa yang dapat dilakukan oleh suatu objek namun user tidak akan mengetahui bagaimana objek itu melakukannya.
+
+* Polymorphism adalah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama.
 
 
 # Tipe desain pengembangan yang digunakan
 [`^ kembali ke atas ^`](#)
 
-Agile
+Design pattern adalah suatu metode untuk menyelesaikan permasalahan yang biasannya berulang atau memiliki pola dalam pengembangan suatu software. Design Pattern bukanlah sebuah metode yang langsung dapat mengubah penyelesaian masalah menjadi kode program melainkan sebuah pola dasar atau template dari cara untuk menyelesaikan suatu masalah dalam situasi berbeda. Design Pattern membantu mempercepat pengenmbangan suatu software karena pola-pola yang dijelaskan merupakan paradigma-paradigma yang telah teruji kegunaannya.  
+
+Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaannya. Berikut merupakan pola tersebut:   
+
+* Creational Pattern (Pola Pembuatan) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam suatu kejadian pembuatan suatu instance atau object.  
+* Behavioral Pattern (Pola Perilaku) Pola ini merupakan suatu solusi untuk menyelasaikan permasalahan yang ditemui dalam komunikasi antar object-object.  
+* Structural Pattern (Pola Struktural) Pola ini merupakan suatu solusi untuk menyelesaikan permasalahan yang ditemui dalam pengaturan komposisi class dan object.  
+
+Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
+
+
+# Hasil dan Pembahasan
+### Use case diagram  
+### Activity diagram   
+### Class diagram   
+### Entity Relationship Diagram   
+### Arsitektur sistem   
+### Fungsi utama yang dikembangkan   
+Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian makanan dari berbagai kantin yang ada di IPB University Dramaga secara online. Kantin IPB memiliki fitur untuk melihat kantin, melihat menu kantin, mencari menu makanan, menambah menu makanan, mengedit menu makanan, menghapus menu makanan, menambah artikel baru, mengedit artikel, menghapus artikel, mentracking asupan makanan dan minuman user per hari, dan melihat report asupan kalori per satuan waktu. 
+
+* Melihat menu makanan dan minuman yang tersedia di kantin IPB Dramaga; Pada fitur ini, user dapat melihat berbagai menu makanan yang tersedia di kantin IPB Dramaga. Setiap menu memiliki beberapa nilai, seperti nama menu, harga, kalori, dan rating. 
+* Membaca, menulis, mengedit, dan menghapus artikel; User dapat menggunakan fitur artikel yang diinginkan. 
+* Melakukan tracking asupan nutrisi harian; User dapat melakukan tracking harian dan melihat asupan kalori yang ia konsumsi per satuan waktu dalam bentuk grafik visual.
+
+### Fungsi CRUD   
+* Create; Implementasi fungsi create pada aplikasi web Kantin IPB terdapat pada fitur daftar akun, tambah diary makanan hari ini, fitur tambah menu makanan, dan fitur buat artikel baru.  
+* Read; Implementasi fungsi read pada aplikasi web Kantin IPB terdapat pada fitur login dan daftar akun yaitu pada saat pemasukkan password dan data serta authentikasi, fitur diary asupan makanan hari ini, fitur report, fitur search, fitur lihat daftar menu makanan, dan fitur lihat daftar artikel.   
+* Update; Implementasi fungsi update pada aplikasi web Kantin IPB yaitu terdapat pada fitur edit menu makanan, edit diary asupan makanan hari ini, edit artikel, dan ubah password pada menu "forgot password".   
+* Delete; Implementasi fungsi delete pada aplikasi web Kantin IPB yaitu terdapat pada fitur hapus menu makanan, hapus artikel, dan hapus diary asupan makanan hari ini.
+
+
+
+# Hasil Implementasi
+## Screenshot sistem
+
+## Link aplikasi (jika sudah di deploy)
+
+
+# Saran untuk pengembangan selanjutnya   
+
+
 
 # Hasil dan Pembahasan
 [`^ kembali ke atas ^`](#)
