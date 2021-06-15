@@ -104,6 +104,10 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ### Arsitektur sistem   
 ### Fungsi utama yang dikembangkan   
 ### Fungsi CRUD   
+* Create; Implementasi fungsi create pada aplikasi web Kantin IPB terdapat pada fitur daftar akun, tambah diary makanan hari ini, fitur tambah menu makanan, dan fitur buat artikel baru.  
+* Read; Implementasi fungsi read pada aplikasi web Kantin IPB terdapat pada fitur login dan daftar akun yaitu pada saat pemasukkan password dan data serta authentikasi, fitur diary asupan makanan hari ini, fitur report, fitur search, fitur lihat daftar menu makanan, dan fitur lihat daftar artikel.   
+* Update; Implementasi fungsi update pada aplikasi web Kantin IPB yaitu terdapat pada fitur edit menu makanan, edit diary asupan makanan hari ini, edit artikel, dan ubah password pada menu "forgot password".   
+* Delete; Implementasi fungsi delete pada aplikasi web Kantin IPB yaitu terdapat pada fitur hapus menu makanan, hapus artikel, dan hapus diary asupan makanan hari ini.
 
 
 
