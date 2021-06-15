@@ -34,18 +34,17 @@ Sebagai pemilik rumah makan di IPB, saya ingin mengetahui daftar menu dan harga 
 
 Visual Studio Code, HTML5, React, Tailwind CSS.
 
-## Software
-Text Editor : Visual Studio Code
-Operating System : Windows 10 Pro 64-bit
-Design Tools and Prototyping : Figma
-Management Tools : Github dan Google Meet
+### Software
+* Text Editor : Visual Studio Code  
+* Operating System : Windows 10 Pro 64-bit  
+* Design Tools and Prototyping : Figma  
+* Management Tools : Github dan Google Meet  
 
-## Hardware
+### Hardware
 
-
-## Tech Stack
-HTML, CSS, Javascript : (Programming Languange)
-TailwindCSS : (CSS Framework)
+### Tech Stack
+* HTML, CSS, Javascript : (Programming Languange)  
+* TailwindCSS : (CSS Framework)  
 
 # Fitur umum
 [`^ kembali ke atas ^`](#)
