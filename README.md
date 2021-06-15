@@ -100,6 +100,7 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ### Use case diagram  
 ### Activity diagram   
 ### Class diagram   
+![image](/Frontend/img/Kantin IPB-Class Diagram.png)
 ### Entity Relationship Diagram   
 ### Arsitektur sistem   
 ### Fungsi utama yang dikembangkan   
@@ -127,11 +128,6 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 
 
 
-# Hasil dan Pembahasan
-[`^ kembali ke atas ^`](#)
-
-## Class Diagram
-![image](/Frontend/img/Kantin IPB-Class Diagram.png)
 
 # Developer beserta job desc
 [`^ kembali ke atas ^`](#)
