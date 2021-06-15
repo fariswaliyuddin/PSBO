@@ -126,7 +126,6 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 
 
 
-
 # Developer beserta job desc
 [`^ kembali ke atas ^`](#)
 
