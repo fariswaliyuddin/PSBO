@@ -135,8 +135,6 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 ## Screenshot sistem
 [`^ kembali ke atas ^`](#)
 
-Seluruh file html, css, js, dan dokumentasi progress Frontend dapat dilihat di dalam folder <a href="/Frontend">"Frontend"</a>
-
 ### Register:
 
 ![image](/Frontend/img/KantinIPB_V1_Register.gif)
@@ -179,10 +177,12 @@ Seluruh file html, css, js, dan dokumentasi progress Frontend dapat dilihat di d
 
 
 ### Link aplikasi (jika sudah di deploy)   
--
+TDA
 
 # Saran untuk pengembangan selanjutnya   
+[`^ kembali ke atas ^`](#)
 
+Untuk pengembangan selanjutnya, diharapkan sistem telah terintegrasi dengan baik ke database dan backend. Selain itu, diharapkan tampilan sistem juga dapat ditingkatkan dan disesuaikan dengan user untuk memberikan User Experience yang lebih baik. Serta penambahan fitur untuk memberikan review/komentar pada menu makanan/kantin oleh user, dan fitur pesan makanan untuk diantar ke asrama/lokasi yang user inginkan di kawasan kampus IPB Dramaga.
 
 
 # Developer beserta job desc
@@ -198,6 +198,7 @@ Seluruh file html, css, js, dan dokumentasi progress Frontend dapat dilihat di d
 
 * <a href="https://www.figma.com/file/LJXWTzxReLjmdCkKyL44dT/PSBOOOOOOOO?node-id=0%3A1">Figma — App Design</a>
 * [Ide aplikasi](idea.md) — Ide dasar aplikasi.
+* <a href="https://docs.google.com/presentation/d/1El7FcqeqvpHcNL6eSirFupjdtnEE3ECGp1EsXfeUBBc/edit?usp=sharing"> Powerpoint Aplikasi Web Kantin IPB
 * [Status Report 1](status_1.md) — Status Report (24-04-2021).
 * [Status Report 2](status_2.md) — Status Report (01-05-2021).
 * <a href="/Frontend/doc/TOC.md">Frontend: Dokummentasi</a> — Table of Content of Frontend Docs
