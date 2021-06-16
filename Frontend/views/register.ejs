@@ -29,13 +29,13 @@ font-sans text-gray-900 h-screen flex flex-col justify-center items-center">
         <header>
             <h1 class="font-black text-2xl text-blue-900">Sign Up</h1>
         </header>
-        <form id = "reg-form" action = "/login" method = "POST">
+        <form action = "/register" method = "POST">
           <div class="bg-blue-200 flex flex-col justify-center items-center">
-              <input type="text" id="full_name" placeholder="Full Name"
+              <input type="text" id="name" name="name" placeholder="Full Name"
               class="mt-2 mx-4 shadow border rounded-2xl w-9/10 px-3 py-2 focus:bg-blue-100">
-              <input type="email" id="email" placeholder="Email"
+              <input type="email" id="email" name="email" placeholder="Email"
               class="mt-2 mx-4 shadow border rounded-2xl w-9/10 px-3 py-2 focus:bg-blue-100">
-              <input type="password" id="pass" placeholder="Password"
+              <input type="password" id="password" name="password" placeholder="Password"
               class="mt-2 mx-4 shadow border rounded-2xl w-9/10 px-3 py-2 focus:bg-blue-100">
               <div class="w-9/10 mt-2">
                       <input type="checkbox" onclick="myFunction()"> Show Password
@@ -43,52 +43,23 @@ font-sans text-gray-900 h-screen flex flex-col justify-center items-center">
               <input type="password" id="confirm_pass" placeholder="Confirm Password"
               class="mt-2 mx-4 shadow border rounded-2xl w-9/10 px-3 py-2 focus:bg-blue-100">
               <label for="birthdate" class="select-none mt-4 text-sm font-bold">Date of Birth</label>
-              <input type="date" id="birthdate" placeholder="DD/MM/YYYY"
+              <input type="date" id="birthdate" name="birthdate" placeholder="DD/MM/YYYY"
               class="mt-2 mx-4 shadow border rounded-2xl w-9/10 px-3 py-2 focus:bg-blue-100">
               <label for="gender" class="select-none mt-2 mb-2 text-sm font-bold">Gender</label>
               <select name="gender" id="gender">
                   <option value="male">Male</option>
                   <option value="female">Female</option>    
               </select>
-              <a href="/html/menus.html">
-                <button class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 mt-4 px-3 py-2 
+                <button type = "submit" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 mt-4 px-3 py-2 
                 text-blue-100 rounded-2xl" >Sign Up</button>  
-              </a>
           </div>
         </form>
         <div class="mt-4 border-solid w-full border-t-2 border-blue-900"></div>
         <a href="/">
-          <button type="submit" value="Submit Form" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500
+          <button value="Submit Form" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500
           m-2 px-3 py-2 text-blue-100 rounded-2xl">Login</button>
         </a>
     </article>
-
-
-<script>
-  const form = document.getElementById('reg-form')
-  form.addEventListener('submit', registerUser)
-
-  async function registerUser(event) {
-    event.preventDefault()
-    const full_name = document.getElementById('full_name').value
-    const email = document.getElementById('email').value
-    const password = document.getElementById('password').value
-
-    const result = await fetch('api/register', {
-      method: 'POST',
-      headers: {
-        'Content-Type' : 'application/json'
-      },
-      body: JSON.stringify({
-        full_name,
-        email,
-        password
-      })
-    }).then((res) => res.json())
-
-    console.log(result)
-  }
-</script>
 
 
 <script>
