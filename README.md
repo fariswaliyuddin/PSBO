@@ -59,6 +59,8 @@ Selain fitur search, Kantin IPB juga menyediakan fitur sort. Search digunakan ke
 Aplikasi Kantin IPB membutuhkan data yang lengkap dan akurat untuk menjalankan aplikasi sesuai dengan fungsinya. Aplikasi ini sangat bergantung pada pengguna kedua karena pengguna tersebut yang memberikan data seputar kantin mulai dari menu yang disajikan sampai nutrisi yang ada pada makanan. Data nutrisi dari makanan kami dapatkan dari web lain yang menyediakan informasi nutrisi dari makanan umum yang dikonsumsi oleh masyarakat Indonesia. Pengguna kedua cukup memilih kategori dari makanan yang dijual dan sistem akan secara otomatis menampilkan nutrisi dari makanan tersebut.
 
 ## Dampak 
+[`^ kembali ke atas ^`](#)
+
 Dengan adanya aplikasi Kantin IPB, kami mengharapkan agar pengguna dapat mengakses informasi seputar kantin IPB dengan mudah dan cepat. Pengguna dapat menemukan menu makanan dengan pola yang sesuai dengan tubuh atau sesuai dengan budget. Dengan begitu, tidak ada lagi pengguna yang kelaparan karena tidak mengetahui makanan yang sesuai dengan budget mereka.
 
 Sebagai pedagang atau pemilik toko, Anda dari manapun bisa melihat dan mengupdate profil toko Anda.
@@ -69,9 +71,8 @@ Semua informasi kantin yang Anda inginkan langsung tersusun secara real time di 
 
 Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date untuk pengguna sehingga mengundang lebih banyak pelanggan untuk menemukan dan datang ke toko Anda, yang berarti lebih banyak penjualan dan lebih besar keuntungan yang bisa Anda peroleh.
 
-[`^ kembali ke atas ^`](#)
-
 # Konsep OOP yang digunakan
+[`^ kembali ke atas ^`](#)
 
 * Encapsulation adalah konsep OOP berupa pembungkusan class untuk menjaga apa apa saja yang ada di dalam class tersebut, baik method ataupun atribut, untuk membatasi hak akses oleh class lainnya. Hal itu dilakukan oleh melalui Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
 
@@ -95,6 +96,8 @@ Macam-macam Design Pattern Terdapat 3 pola bagian utama sesuai dengan kegunaanny
 Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design pattern MVC (Model, View, Controllers) dimana sistem pengembangan tersebut terdiri dari tiga bagian, yaitu: Model (database), View (tampilan antarmuka), dan Controllers (interaksi model dan view).  
 
 # Hasil dan Pembahasan
+[`^ kembali ke atas ^`](#)
+
 ### Use case diagram  
 ![image](/Frontend/img/use_case.PNG)
 ### Activity diagram
@@ -130,13 +133,56 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 * Delete; Implementasi fungsi delete pada aplikasi web Kantin IPB yaitu terdapat pada fitur hapus menu makanan, hapus artikel, dan hapus diary asupan makanan hari ini.
 
 ## Screenshot sistem
+[`^ kembali ke atas ^`](#)
+
+### Register:
+
+![image](/Frontend/img/KantinIPB_V1_Register.gif)
+
+### Login:
+
+![image](/Frontend/img/KantinIPB_V1_Login.gif)
+
+### Menus:
+
+![image](/Frontend/img/KantinIPB_V1_Menus.gif)
+
+### Restaurants:
+
+![image](/Frontend/img/KantinIPB_V1_Restaurants.gif)
+
+### Contoh Kantin - Red Corner:
+
+![image](/Frontend/img/KantinIPB_V1_RedCorner.gif)
+
+### Add New Food:
+
+![image](/Frontend/img/KantinIPB_V1_AddNewFood.gif)
+
+### Diary:
+
+![image](/Frontend/img/KantinIPB_V1_Diary.gif)
+
+### Report:
+
+![image](/Frontend/img/KantinIPB_V1_Report.gif)
+
+### Article:
+
+![image](/Frontend/img/KantinIPB_V1_Article.gif)
+
+### Create New Article:
+
+![image](/Frontend/img/KantinIPB_V1_AddNewArticle.gif)
 
 
-## Link aplikasi (jika sudah di deploy)
-
+### Link aplikasi (jika sudah di deploy)   
+TDA
 
 # Saran untuk pengembangan selanjutnya   
+[`^ kembali ke atas ^`](#)
 
+Untuk pengembangan selanjutnya, diharapkan sistem telah terintegrasi dengan baik ke database dan backend. Selain itu, diharapkan tampilan sistem juga dapat ditingkatkan dan disesuaikan dengan user untuk memberikan User Experience yang lebih baik. Serta penambahan fitur untuk memberikan review/komentar pada menu makanan/kantin oleh user, dan fitur pesan makanan untuk diantar ke asrama/lokasi yang user inginkan di kawasan kampus IPB Dramaga.
 
 
 # Developer beserta job desc
@@ -147,25 +193,12 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 * Muhammad Rifqi Hizrian Afri - G64180073 - Back End
 * Zidane Ibrahim Fadela - G64180015 - UI/UX Designer
 
-
-## Progress sejauh ini:
-[`^ kembali ke atas ^`](#)
-
-Seluruh file html, css, js, dan dokumentasi progress Frontend dapat dilihat di dalam folder <a href="/Frontend">"Frontend"</a>
-
-Food Page:
-
-![image](/Frontend/img/psbo1.gif)
-
-Responsive Test:
-
-![image](/Frontend/img/psbo3.gif)
-
 ## Referensi
 [`^ kembali ke atas ^`](#)
 
 * <a href="https://www.figma.com/file/LJXWTzxReLjmdCkKyL44dT/PSBOOOOOOOO?node-id=0%3A1">Figma — App Design</a>
 * [Ide aplikasi](idea.md) — Ide dasar aplikasi.
+* <a href="https://docs.google.com/presentation/d/1El7FcqeqvpHcNL6eSirFupjdtnEE3ECGp1EsXfeUBBc/edit?usp=sharing"> Powerpoint Aplikasi Web Kantin IPB
 * [Status Report 1](status_1.md) — Status Report (24-04-2021).
 * [Status Report 2](status_2.md) — Status Report (01-05-2021).
 * <a href="/Frontend/doc/TOC.md">Frontend: Dokummentasi</a> — Table of Content of Frontend Docs
