@@ -1,7 +1,7 @@
 <h1 align = "center">PSBO</h1>
 <h2 align = "center">Projek Akhir Pengantar Sistem Berorientasi Objek</h2>
 
-<h1 align="center"><img src="/Frontend/img/Logo_Kantin_IPB.png"></h1>
+<h1 align="center"><img src="img/Logo_Kantin_IPB.png"></h1>
 
 [Navigation](#)
 
@@ -99,26 +99,26 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 [`^ kembali ke atas ^`](#)
 
 ### Use case diagram  
-![image](/Frontend/img/use_case.PNG)
+![image](/img/use_case.PNG)
 ### Activity diagram
 
 #### Penjual
-![image](/Frontend/img/activity_penjual.PNG)
+![image](/img/activity_penjual.PNG)
 
 #### Diary
-![image](/Frontend/img/activity_diary.PNG)
+![image](/img/activity_diary.PNG)
 
 #### Report
 ![image](/Frontend/img/activity_report.PNG)
 
 #### Restaurant
-![image](/Frontend/img/activity_restaurant.PNG)
+![image](/img/activity_restaurant.PNG)
 
 ### Class diagram   
-![image](/Frontend/img/class_diagram.png)
+![image](/img/class_diagram.png)
 ### Entity Relationship Diagram   
 ### Arsitektur sistem  
- ![image](/Frontend/img/arsitektur_sistem.png)
+ ![image](/img/arsitektur_sistem.png)
 ### Fungsi utama yang dikembangkan   
 Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian makanan dari berbagai kantin yang ada di IPB University Dramaga secara online. Kantin IPB memiliki fitur untuk melihat kantin, melihat menu kantin, mencari menu makanan, menambah menu makanan, mengedit menu makanan, menghapus menu makanan, menambah artikel baru, mengedit artikel, menghapus artikel, mentracking asupan makanan dan minuman user per hari, dan melihat report asupan kalori per satuan waktu. 
 
@@ -137,43 +137,43 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 
 ### Register:
 
-![image](/Frontend/img/KantinIPB_V1_Register.gif)
+![image](img/KantinIPB_V1_Register.gif)
 
 ### Login:
 
-![image](/Frontend/img/KantinIPB_V1_Login.gif)
+![image](/img/KantinIPB_V1_Login.gif)
 
 ### Menus:
 
-![image](/Frontend/img/KantinIPB_V1_Menus.gif)
+![image](/img/KantinIPB_V1_Menus.gif)
 
 ### Restaurants:
 
-![image](/Frontend/img/KantinIPB_V1_Restaurants.gif)
+![image](/img/KantinIPB_V1_Restaurants.gif)
 
 ### Contoh Kantin - Red Corner:
 
-![image](/Frontend/img/KantinIPB_V1_RedCorner.gif)
+![image](/img/KantinIPB_V1_RedCorner.gif)
 
 ### Add New Food:
 
-![image](/Frontend/img/KantinIPB_V1_AddNewFood.gif)
+![image](/img/KantinIPB_V1_AddNewFood.gif)
 
 ### Diary:
 
-![image](/Frontend/img/KantinIPB_V1_Diary.gif)
+![image](/img/KantinIPB_V1_Diary.gif)
 
 ### Report:
 
-![image](/Frontend/img/KantinIPB_V1_Report.gif)
+![image](/img/KantinIPB_V1_Report.gif)
 
 ### Article:
 
-![image](/Frontend/img/KantinIPB_V1_Article.gif)
+![image](/img/KantinIPB_V1_Article.gif)
 
 ### Create New Article:
 
-![image](/Frontend/img/KantinIPB_V1_AddNewArticle.gif)
+![image](/img/KantinIPB_V1_AddNewArticle.gif)
 
 
 ### Link aplikasi (jika sudah di deploy)   
