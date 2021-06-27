@@ -109,7 +109,7 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ![image](/img/activity_diary.PNG)
 
 #### Report
-![image](/Frontend/img/activity_report.PNG)
+![image](/img/activity_report.PNG)
 
 #### Restaurant
 ![image](/img/activity_restaurant.PNG)
