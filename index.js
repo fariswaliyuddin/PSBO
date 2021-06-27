@@ -36,7 +36,7 @@ app.get('/menus', checkAuthenticated, (req, res) => {
   })
   
   app.get('/', checkNotAuthenticated, (req, res) => {
-    res.render('index.ejs')
+    res.sendFile('./views/index.ejs')
   })
   
   app.post('/', checkNotAuthenticated, passport.authenticate('local', {
