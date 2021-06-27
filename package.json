@@ -1,9 +1,9 @@
 {
-  "name": " ",
+  "name": "psbo",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
+  "description": "<h1 align = \"center\">PSBO</h1>\r <h2 align = \"center\">Projek Akhir Pengantar Sistem Berorientasi Objek</h2>",
+  "keywords": [],
+  "license": "ISC",
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
@@ -29,5 +29,17 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.1.0"
-  }
+  },
+  "main": "passport-config.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariswaliyuddin/PSBO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fariswaliyuddin/PSBO/issues"
+  },
+  "homepage": "https://github.com/fariswaliyuddin/PSBO#readme"
 }
