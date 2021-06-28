@@ -118,7 +118,7 @@ Dalam merancang dan mengembangkan Kantin IPB, kelompok kami menggunakan design p
 ![image](/img/class_diagram.png)
 
 ### Entity Relationship Diagram 
-<img src="img/Kantin IPB - ERD (Entity Relationship Diagram).PNG">
+![image](/img/KantinIPB_ERD.png)
 
 ### Arsitektur sistem  
  ![image](/img/arsitektur_sistem.png)
