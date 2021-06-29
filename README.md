@@ -177,7 +177,7 @@ Kantin IPB adalah aplikasi berbasis web yang berfungsi untuk melakukan pencarian
 
 
 ### Link aplikasi (jika sudah di deploy)   
-TDA
+https://kantinipb.herokuapp.com/
 
 # Saran untuk pengembangan selanjutnya   
 [`^ kembali ke atas ^`](#)
